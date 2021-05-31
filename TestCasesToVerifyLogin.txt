@@ -1,0 +1,25 @@
+-->Testcases for Login functionality
+
+Verify if Username and Password fields are displayed
+Verify the LOGIN button is displayed
+Verify login is successful with a correct username and correct password.
+
+Verify below error message for invalid login.
+Epic sadface: Username and password do not match any user in this service messages
+
+Verify Login not successful with a correct Username and incorrect Password
+Verify Login not successful with an incorrect Username and correct Password
+
+Verify the below Error message when user clicked on LOGIN button when not entering  Username and Password fields
+Epic sadface: Username is required
+
+Verify below message is displayed when only Username is provided and clicks on LOGIN
+Epic sadface: Password is required
+
+Verify if password field is masked
+Perform browser compatibility Test
+Verify the maximum and minimum acceptable characters for text boxes
+Verify when user clicks on the browser back button after successful login should take the User to log out mode
+Verify when user clicks  on the browser back button after successful logout should not take the User to a logged-in mode
+Verify the error messages are closed when user clicks on X symbol on the error message box
+Verify clicking on close(X) mark on error message, removes the close(X) mark on both Username and Password fields
